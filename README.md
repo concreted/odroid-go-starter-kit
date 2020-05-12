@@ -20,8 +20,11 @@ Build code and flash your device. This is optimized for macOS. Change `COMPORT=/
 # Build only
 bash build.sh
 
-# Build and flash 
+# Build and flash to firmware partition - compatible with https://github.com/ducalex/odroid-go-multi-firmware
 bash flash.sh
+
+# Alternatively, flash to replace entire firmware:
+bash flash_all.sh
 
 # Monitor stdout of the connected ESP32 in a different terminal:
 bash monitor.sh
