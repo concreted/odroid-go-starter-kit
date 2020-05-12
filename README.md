@@ -22,7 +22,8 @@ Build code and flash your device. This is optimized for macOS. Change `COMPORT=/
 # Build only
 bash build.sh
 
-# Build and flash to firmware partition - compatible with https://github.com/ducalex/odroid-go-multi-firmware
+# Build and flash to firmware multiboot partition - compatible with https://github.com/ducalex/odroid-go-multi-firmware/
+# Change SIZE in this script depending on your firmware size.
 bash flash.sh
 
 # Alternatively, flash to replace entire firmware:
@@ -32,6 +33,7 @@ bash flash_all.sh
 bash monitor.sh
 
 # Build .fw firmware file
+# Change SIZE in this script depending on your firmware size.
 bash package.sh
 
 # Clean
