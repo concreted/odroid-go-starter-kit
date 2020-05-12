@@ -1,0 +1,3 @@
+[submodule "components/odroid-go"]
+	path = components/odroid-go
+	url = https://github.com/hardkernel/ODROID-GO.git
