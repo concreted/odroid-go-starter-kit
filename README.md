@@ -1,6 +1,8 @@
 # odroid-go-starter-kit
 
-Based on https://medium.com/@jungpil.yu/esp-idf-based-development-environment-for-odroid-go-e27ff41b4adf
+Inspired by:
+- https://medium.com/@jungpil.yu/esp-idf-based-development-environment-for-odroid-go-e27ff41b4adf
+- https://github.com/ducalex/odroid-go-std-lib
 
 ## Usage
 
@@ -28,6 +30,9 @@ bash flash_all.sh
 
 # Monitor stdout of the connected ESP32 in a different terminal:
 bash monitor.sh
+
+# Build .fw firmware file
+bash package.sh
 
 # Clean
 rm -rf build
